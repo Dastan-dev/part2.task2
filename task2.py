@@ -1,0 +1,6 @@
+people = int(input('students : '))
+apple = int(input('apples :'))
+apple_stud = (people // apple)
+v_korzine = (apple % people)
+print('apple', apple_stud)
+print('v_korzine', v_korzine)
